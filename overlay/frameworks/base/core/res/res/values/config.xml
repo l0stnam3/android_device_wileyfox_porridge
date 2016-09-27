@@ -79,7 +79,19 @@
 
     <!-- Default color for notification LED is green. -->
     <color name="config_defaultNotificationColor">#ff00ff00</color>
+      
+    <!-- Does the notification LED support multiple colors?
+                  Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">true</bool>
 
+    <!-- Does the battery LED support multiple colors?
+                  Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">false</bool>
+    
     <string name="config_useragentprofile_url" translatable="false">http://ua-profiles.cyngn.com/porridge/porridge-4cc1a6987d.rdf</string>
 
     <string name="config_mms_user_agent">Wileyfox-Spark/1.0</string>
