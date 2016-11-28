@@ -69,6 +69,14 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     YGPS
 
+#Camera
+PRODUCT_PACKAGES += \
+    Snap
+
+#CMActions
+PRODUCT_PACKAGES += \
+    CMActions
+
 # Telephony
 SIM_COUNT := 2
 PRODUCT_PROPERTY_OVERRIDES += ro.telephony.sim.count=$(SIM_COUNT)
@@ -95,6 +103,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.mediatek.version.release=$(MTK_BUILD_VERNO) \
     ro.mediatek.chip_ver=$(MTK_CHIP_VER)
+
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Inherit the rest from mt6735-common
 $(call inherit-product, device/cyanogen/mt6735-common/mt6735.mk)

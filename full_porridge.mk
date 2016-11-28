@@ -23,3 +23,4 @@ PRODUCT_NAME := full_porridge
 PRODUCT_BRAND := wileyfox
 PRODUCT_MODEL := PORRIDGE
 PRODUCT_MANUFACTURER := wileyfox
+
