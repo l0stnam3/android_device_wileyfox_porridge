@@ -80,6 +80,9 @@
     <!-- Default color for notification LED is green. -->
     <color name="config_defaultNotificationColor">#ff00ff00</color>
 
+	<!-- Enable the electron beam -->
+    <bool name="config_animateScreenLights">false</bool>
+	
     <!-- Whether safe headphone volume is enabled or not (country specific). -->
     <bool name="config_safe_media_volume_enabled">false</bool>
 
