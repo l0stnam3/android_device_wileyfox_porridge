@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Busybox
+PRODUCT_PACKAGES += \
+    busybox
+
 #CMActions
 PRODUCT_PACKAGES += \
     CMActions
