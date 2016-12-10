@@ -51,6 +51,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ht120.mtc:system/etc/.tp/.htc120.mtc
 
 # System Properties
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.secure=0
+
 #PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #    persist.sys.usb.config=mtp
 
@@ -81,6 +85,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CMActions
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # Telephony
 SIM_COUNT := 2
 PRODUCT_PROPERTY_OVERRIDES += ro.telephony.sim.count=$(SIM_COUNT)
@@ -107,8 +115,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.mediatek.version.release=$(MTK_BUILD_VERNO) \
     ro.mediatek.chip_ver=$(MTK_CHIP_VER)
-
-$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 # Inherit the rest from mt6735-common
 $(call inherit-product, device/cyanogen/mt6735-common/mt6735.mk)
