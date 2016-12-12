@@ -18,6 +18,7 @@
 
     <!-- Default wi-fi hotspot ssid -->
     <string name="config_wifiHotSpotSsid" translatable="false">Wileyfox Spark</string>
+	
     <!-- Default wi-fi direct name -->
     <string name="config_wifiDirectName" translatable="false">Wileyfox Spark</string>
 
@@ -26,5 +27,8 @@
     <bool name="config_proximityCheckOnWake">true</bool>
     <integer name="config_proximityCheckTimeout">300</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Disable LiveDisplay by default -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
 
 </resources>
