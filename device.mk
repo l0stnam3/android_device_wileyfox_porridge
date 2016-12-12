@@ -53,7 +53,8 @@ PRODUCT_COPY_FILES += \
 # System Properties
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
-    ro.secure=0
+    ro.secure=0 \
+	ro.debuggable=1
 
 #PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #    persist.sys.usb.config=mtp
@@ -64,6 +65,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # This one is set by init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := spark,wileyfox_spark,porridge
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
