@@ -52,8 +52,8 @@ PRODUCT_COPY_FILES += \
 
 # System Properties
 ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.adb.secure=0 \
-    ro.secure=0 \
+	ro.adb.secure=0 \
+	ro.secure=0 \
 	ro.debuggable=1 \
 	persist.service.acm.enable=0
 
