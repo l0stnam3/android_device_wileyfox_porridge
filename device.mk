@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     ro.secure=0 \
-	ro.debuggable=1
+	ro.debuggable=1 \
+	persist.service.acm.enable=0
 
 #PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 #    persist.sys.usb.config=mtp
