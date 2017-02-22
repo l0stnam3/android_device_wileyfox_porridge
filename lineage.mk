@@ -17,7 +17,7 @@ $(call inherit-product, device/wileyfox/porridge/full_porridge.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 
-PRODUCT_NAME := cm_porridge
+PRODUCT_NAME := lineage_porridge
 BOARD_VENDOR := wileyfox
 PRODUCT_DEVICE := porridge
 
