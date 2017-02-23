@@ -57,7 +57,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 	ro.debuggable=1
 
 #PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-#    persist.sys.usb.config=mtp
+    persist.sys.usb.config=mtp,adb
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
@@ -82,8 +82,8 @@ PRODUCT_PACKAGES += \
     Snap
 
 # Busybox
-PRODUCT_PACKAGES += \
-    busybox
+#PRODUCT_PACKAGES += \
+#    busybox
 
 #CMActions
 PRODUCT_PACKAGES += \
