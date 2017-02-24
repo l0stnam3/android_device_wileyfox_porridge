@@ -72,7 +72,7 @@
     </integer-array>
 
 	<!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
-    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+    <bool translatable="false" name="config_wifi_dual_band_support">fale</bool>
 
     <!-- IpReachability monitor enable/Disable -->
     <bool translatable="false" name="config_wifi_ipreachability_monitor">false</bool>
