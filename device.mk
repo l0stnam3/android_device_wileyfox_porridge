@@ -74,8 +74,8 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # GPS
-PRODUCT_PACKAGES += \
-    YGPS
+#PRODUCT_PACKAGES += \
+#    YGPS
 
 #Camera
 PRODUCT_PACKAGES += \
@@ -107,7 +107,7 @@ MTK_GPU_VERSION := mali midgard r7p0
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=bfq
+    sys.io.scheduler=sio
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=512k \

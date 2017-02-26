@@ -146,9 +146,6 @@
     <integer name="config_screenBrightnessDoze">10</integer>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-    
-    <!-- enable doze powersaving mode -->
-    <bool name="config_enableAutoPowerModes">true</bool>
 
     <string name="config_useragentprofile_url" translatable="false">http://ua-profiles.cyngn.com/porridge/porridge-4cc1a6987d.rdf</string>
 
