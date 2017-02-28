@@ -41,7 +41,6 @@ lib{,64}/libhwm.so
 lib{,64}/hw/sensors.mt6735.so
 
 # GPS
--app/YGPS/YGPS.apk
 bin/mtk_agpsd
 bin/slpd
 bin/wifi2agps
@@ -206,13 +205,6 @@ res/sound/ringtone.wav
 # Misc
 lib{,64}/hw/lights.mt6735.so
 lib{,64}/hw/memtrack.mt6735.so
-
-# MTKLogger
--app/MTKLogger/MTKLogger.apk
--bin/emdlogger1
--bin/mdlogger
--bin/mobile_log_d
--bin/netdiag
 
 # Wifi
 etc/firmware/ROMv2_lm_patch_1_0_hdr.bin

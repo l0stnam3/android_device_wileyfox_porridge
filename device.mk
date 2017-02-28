@@ -73,17 +73,13 @@ TARGET_OTA_ASSERT_DEVICE := spark,wileyfox_spark,porridge
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# GPS
-#PRODUCT_PACKAGES += \
-#    YGPS
-
 #Camera
 PRODUCT_PACKAGES += \
     Snap
 
 # Busybox
 #PRODUCT_PACKAGES += \
-#    busybox
+    busybox
 
 #CMActions
 PRODUCT_PACKAGES += \

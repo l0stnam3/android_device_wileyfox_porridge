@@ -17,4 +17,4 @@ Display | 1280 x 720 pixels IPS LCD
 Rear Camera  | 8MP (13MP on Spark+)
 Front Camera  | 8MP
 Release Date | 2016 August
-![Wileyfox](https://wiki.cyanogenmod.org/images/5/5d/Porridge.png "Spark/Spark+")
+![Wileyfox](http://cdn02.androidauthority.net/wp-content/uploads/2016/06/wileyfox-spark.jpg "Spark/Spark+")
