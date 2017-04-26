@@ -103,7 +103,7 @@ MTK_GPU_VERSION := mali midgard r7p0
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=sio
+    sys.io.scheduler=cfq
 
 # Configure dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
